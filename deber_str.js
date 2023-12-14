@@ -72,3 +72,6 @@ alert(url1.substring(url1.indexOf("d/")+2, url1.indexOf("/", 44)));
 // Salida: C
 
 let computadoraAsignada = "LAB2#B";
+let letter = computadoraAsignada.indexOf("#")+1;
+let codeAscii = computadoraAsignada.codePointAt(letter)+1;
+alert(String.fromCodePoint(codeAscii));
