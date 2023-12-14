@@ -71,4 +71,4 @@ alert(url1.substring(url1.indexOf("d/")+2, url1.indexOf("/", 44)));
 // Entrada: LAB2#B
 // Salida: C
 
-let 
+let computadoraAsignada = "LAB2#B";
